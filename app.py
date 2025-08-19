@@ -124,10 +124,10 @@ def experience_page():
     - **Accuracy**: Achieved an improved tagging accuracy of approx. 12% over manual efforts.
 
     ##### Automated real-time Chatbot Evaluation workflow
-    - **Tech Stack**: Python, XGBoost, Azure Functions, Azure Cosmos DB, Azure Event Grid.  
-    - **Description**: Implemented a real-time automated Evaluation Workflow by training Python-based XGBoost regression models to assign quality scores (similarity, fluency, relevance scores)
-    to assess individual chatbot interactions, as well as predict Coherence and Resolution Effectivenes scores for the entire conversation, triggered via Azure Functions and Azure Event Grid 
-    for event-driven processing, with results stored in Cosmos DB to enhance the quality of our chatbot responses.
+    - **Tech Stack**: Python, Prompt Engineering, Azure Functions, Azure Cosmos DB, Azure Event Grid.  
+    - **Description**: Implemented a real-time automated Evaluation Workflow using Python for calculating evaluation metrics (e.g., similarity, 
+    fluency, relevance scores, etc.) to assess individual chatbot interactions as well as entire conversations, triggered via Azure Functions 
+    and Azure Event Grid for event-driven processing, with results stored in Cosmos DB to enhance the quality of our chatbot responses.
     - **Benefit**: Enhanced the quality of chatbot responses, improving customer satisfaction.
     
    ##### Automated on-demand Newsletter Generation
@@ -283,4 +283,5 @@ with tab1:
 with tab2:  
     experience_page()  
 with tab3:
+
     project_page()
